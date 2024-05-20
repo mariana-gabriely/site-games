@@ -1,0 +1,54 @@
+body {
+  margin: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%; 
+}
+
+.english-name {
+  font-family: "Permanent Marker", cursive;
+  font-size: 30px;
+  color: red;
+  transition: all .5s ease;
+  
+}
+
+.poster-img img {
+  width: 250px;
+  height: 350px;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+.poster-img {
+  margin-right: 40px;
+}
+
+.info {
+  flex: 1;
+}
+
+.sinopse {
+  max-width: 800px;
+  text-align: justify;
+}
+
+.trailer {
+  width: 170px;
+  height: 40px;
+  border: 2px solid red;
+  background-color: black;
+  color: red;
+  border-radius: 8px;
+}
+
